@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+
+.sc2
+{
+    height: 100px;
+    max-height: 100px;
+    overflow-y: scroll;
+    border: 1px solid red;
+}
+
+/* Scroll 2 */
+.sc2::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  .sc2::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  .sc2::-webkit-scrollbar-thumb {
+    background-color: #11171a;
+    border-radius: 10px;
+  }
+
+.close{
+    background-color: rgba(255, 255, 255, 0.1);
+    display: none;
+}
+.close:hover{
+    background-color: rgb(218, 9, 9);
+    display: block;
+}
+
+.round{
+  border-radius: 100%;
+  border:1px solid black;
+  background-color: brown;
+}
